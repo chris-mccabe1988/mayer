@@ -5,6 +5,10 @@
  *====================================*/
 
 /* Note this style is marked as !important specifically for WordPress.com */
+
+@import "colors";
+@import "mixins";
+
 #commentform {
 	background: #fff !important;
 }

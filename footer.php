@@ -35,7 +35,7 @@
 								<?php printf( __( 'Proudly powered by %s', 'mayer' ), 'WordPress' ); ?>
 							</a>
 							<span class="sep"> &middot; </span>
-							<?php printf( __( 'Theme: %1$s by %2$s.', 'mayer' ), 'Mayer', '<a href="https://wordpress.com/themes/by/pressware/" rel="designer">Pressware</a>' ); ?>
+							<?php printf( __( 'Theme: Adapted from  %1$s by %2$s.', 'mayer' ), 'Mayer', '<a href="https://wordpress.com/themes/by/pressware/" rel="designer">Pressware</a>' ); ?>
 						</p>
 					</div><!-- .col-lg-12 -->
 				</div><!-- .row -->
