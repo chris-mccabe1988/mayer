@@ -28,149 +28,253 @@
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+/* line 10, ../sass/bootstrap-resets.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
+/* line 17, ../sass/bootstrap-resets.scss */
 .collapse {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+}
 
+/* line 23, ../sass/bootstrap-resets.scss */
 .nav .caret {
   border-top-color: #b5b5b5;
   border-bottom-color: #b5b5b5;
   margin-left: 10px;
-  margin-top: -4px; }
+  margin-top: -4px;
+}
 
+/* line 40, ../sass/bootstrap-resets.scss */
 .pager li > a:hover {
-  background: transparent; }
+  background: transparent;
+}
 
 /* Base Elements
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* line 9, ../sass/base-elements.scss */
 body {
   background: #ffffff;
-  font-family: 'Source Sans Pro', Sans-serif; }
+  font-family: 'Source Sans Pro', Sans-serif;
+}
 
+/* line 16, ../sass/base-elements.scss */
 a {
-  color: #80949c; }
-  a > code {
-    color: #895057; }
-    a > code:hover {
-      color: #80949c; }
-  a:hover {
-    color: #2e3138;
-    text-decoration: none; }
-  a:focus {
-    outline: none; }
+  color: #337A96;
+}
+/* line 20, ../sass/base-elements.scss */
+a > code {
+  color: #895057;
+}
+/* line 24, ../sass/base-elements.scss */
+a > code:hover {
+  color: #337A96;
+}
+/* line 30, ../sass/base-elements.scss */
+a:hover {
+  color: #2e3138;
+  text-decoration: none;
+}
+/* line 37, ../sass/base-elements.scss */
+a:focus {
+  outline: none;
+}
 
+/* line 43, ../sass/base-elements.scss */
 address {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 15px;
-  line-height: 22px; }
+  line-height: 22px;
+}
 
+/* line 52, ../sass/base-elements.scss */
 blockquote {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #b5b5b5; }
-  blockquote p {
-    line-height: 22px;
-    font-size: 16px; }
+  border-left: 5px solid #b5b5b5;
+}
+/* line 59, ../sass/base-elements.scss */
+blockquote p {
+  line-height: 22px;
+  font-size: 16px;
+}
 
+/* line 68, ../sass/base-elements.scss */
 cite {
   display: block;
   font-style: italic;
-  margin-top: 8px; }
+  margin-top: 8px;
+}
 
+/* line 76, ../sass/base-elements.scss */
 code {
   background-color: #e3e3e3;
-  color: #2e3138; }
+  color: #2e3138;
+}
 
+/* line 83, ../sass/base-elements.scss */
 dd {
-  margin-left: 12px; }
+  margin-left: 12px;
+}
 
+/* line 87, ../sass/base-elements.scss */
 dt {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
+/* line 94, ../sass/base-elements.scss */
 th,
 td {
   border: 1px solid #333333;
-  padding: 8px; }
+  padding: 8px;
+}
 
+/* line 102, ../sass/base-elements.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', Sans-serif;
   font-weight: bold;
-  letter-spacing: -2px; }
+  letter-spacing: -2px;
+}
 
+/* line 110, ../sass/base-elements.scss */
 h2 {
-  font-size: 34px; }
+  font-size: 34px;
+}
 
+/* line 114, ../sass/base-elements.scss */
 h3 {
-  font-size: 32px; }
+  font-size: 32px;
+}
 
+/* line 118, ../sass/base-elements.scss */
 h4 {
-  font-size: 30px; }
+  font-size: 30px;
+}
 
+/* line 122, ../sass/base-elements.scss */
 h5 {
-  font-size: 28px; }
+  font-size: 28px;
+}
 
+/* line 126, ../sass/base-elements.scss */
 h6 {
   font-size: 26px;
-  letter-spacing: -2px; }
+  letter-spacing: -2px;
+}
 
+/* line 133, ../sass/base-elements.scss */
 h1, h2, p {
-  word-wrap: break-word; }
+  word-wrap: break-word;
+}
 
+/* line 139, ../sass/base-elements.scss */
 p code {
   display: block;
-  overflow: scroll; }
+  overflow: scroll;
+}
 
+/* line 148, ../sass/base-elements.scss */
 code,
 pre {
   background: #e3e3e3;
   color: #2e3138;
   font-family: 'Lucida Grande', Monotype, Consolas, "Courier New", Monospace;
-  font-size: 17px; }
+  font-size: 17px;
+}
 
+/* line 158, ../sass/base-elements.scss */
 var {
   font-family: Monospace, sans-serif;
-  font-style: normal; }
+  font-style: normal;
+}
 
 /* Classes
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+/* line 10, ../sass/classes.scss */
 .alignnone {
-  max-width: 100%; }
-  .alignnone img {
-    max-width: 100%;
-    height: auto; }
+  max-width: 100%;
+}
+/* line 14, ../sass/classes.scss */
+.alignnone img {
+  max-width: 100%;
+  height: auto;
+}
 
+/* line 23, ../sass/classes.scss */
 .aligncenter {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
+/* line 31, ../sass/classes.scss */
 .alignleft {
   float: left;
-  margin: 10px 20px 0 0; }
+  margin: 10px 20px 0 0;
+}
 
+/* line 38, ../sass/classes.scss */
 .alignright {
   float: right;
-  margin: 10px 10px 0px 20px; }
+  margin: 10px 10px 0px 20px;
+}
 
+/* line 45, ../sass/classes.scss */
 .gallery-caption {
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 49, ../sass/classes.scss */
 .more-link-wrapper {
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+}
 
+/* line 104, ../sass/_mixins.scss */
 .sticky .sticky-wrapper {
   width: 85px;
   height: 88px;
@@ -178,7 +282,9 @@ var {
   position: absolute;
   top: -3px;
   right: -3px;
-  z-index: 1; }
+  z-index: 1;
+}
+/* line 116, ../sass/_mixins.scss */
 .sticky .sticky-ribbon {
   font: bold 15px Sans-Serif;
   color: #333;
@@ -202,7 +308,9 @@ var {
   color: #6a6340;
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+/* line 144, ../sass/_mixins.scss */
 .sticky .sticky-ribbon:before,
 .sticky .sticky-ribbon:after {
   content: "";
@@ -210,429 +318,683 @@ var {
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   position: absolute;
-  bottom: -3px; }
+  bottom: -3px;
+}
+/* line 156, ../sass/_mixins.scss */
 .sticky .sticky-ribbon:before {
-  left: 0; }
+  left: 0;
+}
+/* line 160, ../sass/_mixins.scss */
 .sticky .sticky-ribbon:after {
-  right: 0; }
+  right: 0;
+}
 
+/* line 57, ../sass/classes.scss */
 tr.odd {
-  background-color: #e3e3e3; }
+  background-color: #e3e3e3;
+}
 
+/* line 61, ../sass/classes.scss */
 .wp-caption-text {
   font-size: 14px;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 69, ../sass/classes.scss */
 .wp-caption.aligncenter {
-  max-width: 100%; }
-  .wp-caption.aligncenter .size-large,
-  .wp-caption.aligncenter .size-full {
-    width: 100%;
-    max-width: 100%;
-    height: auto; }
+  max-width: 100%;
+}
+/* line 73, ../sass/classes.scss */
+.wp-caption.aligncenter .size-large,
+.wp-caption.aligncenter .size-full {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Header
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+/* line 10, ../sass/header.scss */
 #masthead {
   min-height: 150px;
-  background: #80949c; }
-  #masthead .container {
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    #masthead .container #avatar {
-      margin: 0 auto;
-      margin-top: 12px;
-      margin-bottom: 12px;
-      text-align: center; }
-      #masthead .container #avatar img {
-        border-radius: 150px;
-        -moz-border-radius: 150px;
-        -webkit-border-radius: 150px;
-        width: 140px;
-        height: 140px; }
-  #masthead #title {
-    margin-top: 16px; }
-    #masthead #title #site-title {
-      font-family: 'Muli', Sans-serif;
-      font-size: 58px;
-      color: #fcfcfc;
-      text-align: left;
-      font-weight: bold;
-      letter-spacing: -2px; }
-      #masthead #title #site-title:hover {
-        color: #e3e3e3; }
+  background: #337A96;
+}
+/* line 15, ../sass/header.scss */
+#masthead .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 20, ../sass/header.scss */
+#masthead .container #avatar {
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+/* line 27, ../sass/header.scss */
+#masthead .container #avatar img {
+  border-radius: 150px;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  width: 140px;
+  height: 140px;
+}
+/* line 40, ../sass/header.scss */
+#masthead #title {
+  margin-top: 16px;
+}
+/* line 44, ../sass/header.scss */
+#masthead #title #site-title {
+  font-family: 'Muli', Sans-serif;
+  font-size: 58px;
+  color: #fcfcfc;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+/* line 49, ../sass/header.scss */
+#masthead #title #site-title:hover {
+  color: #e3e3e3;
+}
 @-moz-document url-prefix() {
+  /* line 55, ../sass/header.scss */
   #masthead #title p#site-title {
     margin-top: 1px;
-    margin-bottom: 0px; } }
-    @media screen and (-webkit-min-device-pixel-ratio: 0) {
-      #masthead #title p#site-title {
-        margin-top: 0px;
-        margin-bottom: 1px; } }
-  #masthead #description p#site-description {
-    font-family: 'Muli', Sans-serif;
-    font-size: 58px;
-    color: #fcfcfc;
-    text-align: left;
-    font-weight: bold;
-    font-size: 32px;
-    font-weight: 300;
-    letter-spacing: -2px; }
+    margin-bottom: 0px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 55, ../sass/header.scss */
+  #masthead #title p#site-title {
+    margin-top: 0px;
+    margin-bottom: 1px;
+  }
+}
+/* line 77, ../sass/header.scss */
+#masthead #description p#site-description {
+  font-family: 'Muli', Sans-serif;
+  font-size: 58px;
+  color: #fcfcfc;
+  text-align: left;
+  font-weight: bold;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -2px;
+}
 
 /* Navigation
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* line 9, ../sass/navigation.scss */
 #top-navigation-wrapper {
   background-color: #ffffff;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 16, ../sass/navigation.scss */
 .navigation {
   min-height: 70px;
-  padding-top: 15px; }
-  .navigation .nav {
-    margin-left: 0; }
-    .navigation .nav .active a {
-      color: #b5b5b5; }
-    .navigation .nav li a {
-      color: #333333;
-      font-family: 'Nunito', Sans-serif;
-      font-weight: 100;
-      font-size: 18px;
-      background-color: transparent; }
-      .navigation .nav li a:hover {
-        color: #b5b5b5;
-        background-color: transparent; }
-    .navigation .nav li:hover {
-      color: #e3e3e3; }
-    .navigation .nav .dropdown-menu {
-      margin-top: -5px;
-      margin-left: 5px; }
-      .navigation .nav .dropdown-menu > .active > a {
-        background-color: transparent; }
-    .navigation .nav .current-menu-parent .dropdown-toggle {
-      color: #b5b5b5; }
-    .navigation .nav .current-menu-parent .active a,
-    .navigation .nav .current-menu-parent .current-menu-item a {
-      color: #b5b5b5; }
+  padding-top: 15px;
+}
+/* line 21, ../sass/navigation.scss */
+.navigation .nav {
+  margin-left: 0;
+}
+/* line 27, ../sass/navigation.scss */
+.navigation .nav .active a {
+  color: #b5b5b5;
+}
+/* line 35, ../sass/navigation.scss */
+.navigation .nav li a {
+  color: #333333;
+  font-family: 'Nunito', Sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  background-color: transparent;
+}
+/* line 43, ../sass/navigation.scss */
+.navigation .nav li a:hover {
+  color: #b5b5b5;
+  background-color: transparent;
+}
+/* line 52, ../sass/navigation.scss */
+.navigation .nav li:hover {
+  color: #e3e3e3;
+}
+/* line 58, ../sass/navigation.scss */
+.navigation .nav .dropdown-menu {
+  margin-top: -5px;
+  margin-left: 5px;
+}
+/* line 66, ../sass/navigation.scss */
+.navigation .nav .dropdown-menu > .active > a {
+  background-color: transparent;
+}
+/* line 76, ../sass/navigation.scss */
+.navigation .nav .current-menu-parent .dropdown-toggle {
+  color: #b5b5b5;
+}
+/* line 83, ../sass/navigation.scss */
+.navigation .nav .current-menu-parent .active a,
+.navigation .nav .current-menu-parent .current-menu-item a {
+  color: #b5b5b5;
+}
 
 /* Social Icons
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* line 9, ../sass/social-icons.scss */
 #social-icons li {
   width: 40px;
-  height: 20px; }
-  #social-icons li:hover {
-    background: transparent; }
-  #social-icons li a i {
-    text-align: right; }
+  height: 20px;
+}
+/* line 14, ../sass/social-icons.scss */
+#social-icons li:hover {
+  background: transparent;
+}
+/* line 20, ../sass/social-icons.scss */
+#social-icons li a i {
+  text-align: right;
+}
 
+/* line 30, ../sass/social-icons.scss */
 #social-icons-footer {
   display: inline-block;
-  padding-top: 20px; }
-  #social-icons-footer #social-icons a:hover {
-    background: none; }
+  padding-top: 20px;
+}
+/* line 38, ../sass/social-icons.scss */
+#social-icons-footer #social-icons a:hover {
+  background: none;
+}
 
 /* Archive Elements
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* line 9, ../sass/archives.scss */
 .archive-header {
   font-size: 17px;
   background: #fcfcfc;
   padding: 10px 20px 10px 20px;
   border-radius: 4px;
   border: 1px solid #e3e3e3;
-  margin-right: 20px; }
-  .archive-header h4 {
-    margin: 10px 0 10px 0; }
+  margin-right: 20px;
+}
+/* line 18, ../sass/archives.scss */
+.archive-header h4 {
+  margin: 10px 0 10px 0;
+}
 
 /* Content
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* line 7, ../sass/content.scss */
 #primary-wrapper {
-  background: #ffffff; }
-  #primary-wrapper #primary {
-    padding: 0 30px 0 30px; }
-    #primary-wrapper #primary #main {
-      padding-top: 20px;
-      padding-right: 0px; }
-      #primary-wrapper #primary #main .post {
-        border-bottom: 1px dotted #e3e3e3;
-        padding-bottom: 40px; }
-      #primary-wrapper #primary #main .single-post {
-        border-bottom: 0;
-        padding-bottom: 0; }
-      #primary-wrapper #primary #main .page,
-      #primary-wrapper #primary #main .post,
-      #primary-wrapper #primary #main .single-post {
-        padding-top: 20px;
-        padding-right: 20px; }
-        #primary-wrapper #primary #main .page .page-title,
-        #primary-wrapper #primary #main .post .page-title,
-        #primary-wrapper #primary #main .single-post .page-title {
-          font-family: 'Source Sans Pro', sans-serif;
-          font-size: 40px;
-          letter-spacing: -2px;
-          margin: "0 0 20px 0";
-          color: #050505;
-          font-weight: bold; }
-        #primary-wrapper #primary #main .page .post-title,
-        #primary-wrapper #primary #main .post .post-title,
-        #primary-wrapper #primary #main .single-post .post-title {
-          font-family: 'Source Sans Pro', sans-serif;
-          font-size: 40px;
-          letter-spacing: -2px;
-          margin: 0 0 0 0;
-          color: #050505;
-          font-weight: bold; }
-          #primary-wrapper #primary #main .page .post-title a,
-          #primary-wrapper #primary #main .post .post-title a,
-          #primary-wrapper #primary #main .single-post .post-title a {
-            color: #050505; }
-            #primary-wrapper #primary #main .page .post-title a:hover,
-            #primary-wrapper #primary #main .post .post-title a:hover,
-            #primary-wrapper #primary #main .single-post .post-title a:hover {
-              color: #626469; }
-        #primary-wrapper #primary #main .page .post-meta,
-        #primary-wrapper #primary #main .post .post-meta,
-        #primary-wrapper #primary #main .single-post .post-meta {
-          color: #b5b5b5;
-          font-family: 'Source Sans Pro', sans-serif;
-          font-size: 16px;
-          margin: 0px 0px 20px 2px; }
-          #primary-wrapper #primary #main .page .post-meta a,
-          #primary-wrapper #primary #main .post .post-meta a,
-          #primary-wrapper #primary #main .single-post .post-meta a {
-            color: #b5b5b5;
-            text-decoration: underline; }
-            #primary-wrapper #primary #main .page .post-meta a:hover,
-            #primary-wrapper #primary #main .post .post-meta a:hover,
-            #primary-wrapper #primary #main .single-post .post-meta a:hover {
-              color: #333333; }
-        #primary-wrapper #primary #main .page .post-content,
-        #primary-wrapper #primary #main .post .post-content,
-        #primary-wrapper #primary #main .single-post .post-content {
-          font-family: 'Source Sans Pro', sans-serif;
-          font-size: 17px;
-          line-height: 30px;
-          text-align: justify; }
-          #primary-wrapper #primary #main .page .post-content .divide,
-          #primary-wrapper #primary #main .post .post-content .divide,
-          #primary-wrapper #primary #main .single-post .post-content .divide {
-            background: #e3e3e3;
-            height: 1px;
-            margin: 16px 0 0 0; }
-          #primary-wrapper #primary #main .page .post-content .more-link,
-          #primary-wrapper #primary #main .post .post-content .more-link,
-          #primary-wrapper #primary #main .single-post .post-content .more-link {
-            text-align: center;
-            display: block;
-            font-weight: 600; }
-          #primary-wrapper #primary #main .page .post-content p,
-          #primary-wrapper #primary #main .post .post-content p,
-          #primary-wrapper #primary #main .single-post .post-content p {
-            margin-bottom: 20px; }
-            #primary-wrapper #primary #main .page .post-content p img,
-            #primary-wrapper #primary #main .post .post-content p img,
-            #primary-wrapper #primary #main .single-post .post-content p img {
-              max-width: 100%;
-              height: auto; }
-          #primary-wrapper #primary #main .page .post-content .post-password-form label,
-          #primary-wrapper #primary #main .post .post-content .post-password-form label,
-          #primary-wrapper #primary #main .single-post .post-content .post-password-form label {
-            display: inline; }
-          #primary-wrapper #primary #main .page .post-content .post-password-form p input[name="post_password"],
-          #primary-wrapper #primary #main .post .post-content .post-password-form p input[name="post_password"],
-          #primary-wrapper #primary #main .single-post .post-content .post-password-form p input[name="post_password"] {
-            border-top-right-radius: 0;
-            -moz-border-top-right-radius: 0;
-            -webkit-border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
-            -moz-bottom-right-radius: 0;
-            -webkit-bottom-right-radius: 0;
-            border-right: 0;
-            width: 90%;
-            display: inline;
-            margin-right: -2px; }
-          #primary-wrapper #primary #main .page .post-content .post-password-form p .btn,
-          #primary-wrapper #primary #main .post .post-content .post-password-form p .btn,
-          #primary-wrapper #primary #main .single-post .post-content .post-password-form p .btn {
-            border-top-left-radius: 0;
-            -moz-border-top-left-radius: 0;
-            -webkit-border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
-            -moz-border-bottom-left-radius: 0;
-            -webkit-border-bottom-left-radius: 0; }
-        #primary-wrapper #primary #main .page .post-pagination,
-        #primary-wrapper #primary #main .post .post-pagination,
-        #primary-wrapper #primary #main .single-post .post-pagination {
-          background: #fcfcfc;
-          padding: 10px 20px 10px 20px;
-          border-radius: 4px;
-          border: 1px solid #e3e3e3;
-          margin: 20px 0 20px 0;
-          font-size: 17px; }
-          #primary-wrapper #primary #main .page .post-pagination p,
-          #primary-wrapper #primary #main .post .post-pagination p,
-          #primary-wrapper #primary #main .single-post .post-pagination p {
-            margin: 0; }
+  background: #ffffff;
+}
+/* line 11, ../sass/content.scss */
+#primary-wrapper #primary {
+  padding: 0 30px 0 30px;
+}
+/* line 15, ../sass/content.scss */
+#primary-wrapper #primary #main {
+  padding-top: 20px;
+  padding-right: 0px;
+}
+/* line 20, ../sass/content.scss */
+#primary-wrapper #primary #main .post {
+  border-bottom: 1px dotted #e3e3e3;
+  padding-bottom: 40px;
+}
+/* line 27, ../sass/content.scss */
+#primary-wrapper #primary #main .single-post {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 34, ../sass/content.scss */
+#primary-wrapper #primary #main .page,
+#primary-wrapper #primary #main .post,
+#primary-wrapper #primary #main .single-post {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+/* line 41, ../sass/content.scss */
+#primary-wrapper #primary #main .page .page-title,
+#primary-wrapper #primary #main .post .page-title,
+#primary-wrapper #primary #main .single-post .page-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  letter-spacing: -2px;
+  margin: "0 0 20px 0";
+  color: #050505;
+  font-weight: bold;
+}
+/* line 45, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-title,
+#primary-wrapper #primary #main .post .post-title,
+#primary-wrapper #primary #main .single-post .post-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  letter-spacing: -2px;
+  margin: 0 0 0 0;
+  color: #050505;
+  font-weight: bold;
+}
+/* line 49, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-title a,
+#primary-wrapper #primary #main .post .post-title a,
+#primary-wrapper #primary #main .single-post .post-title a {
+  color: #050505;
+}
+/* line 53, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-title a:hover,
+#primary-wrapper #primary #main .post .post-title a:hover,
+#primary-wrapper #primary #main .single-post .post-title a:hover {
+  color: #626469;
+}
+/* line 61, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-meta,
+#primary-wrapper #primary #main .post .post-meta,
+#primary-wrapper #primary #main .single-post .post-meta {
+  color: #b5b5b5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  margin: 0px 0px 20px 2px;
+}
+/* line 68, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-meta a,
+#primary-wrapper #primary #main .post .post-meta a,
+#primary-wrapper #primary #main .single-post .post-meta a {
+  color: #b5b5b5;
+  text-decoration: underline;
+}
+/* line 73, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-meta a:hover,
+#primary-wrapper #primary #main .post .post-meta a:hover,
+#primary-wrapper #primary #main .single-post .post-meta a:hover {
+  color: #333333;
+}
+/* line 81, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content,
+#primary-wrapper #primary #main .post .post-content,
+#primary-wrapper #primary #main .single-post .post-content {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: justify;
+}
+/* line 88, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content .divide,
+#primary-wrapper #primary #main .post .post-content .divide,
+#primary-wrapper #primary #main .single-post .post-content .divide {
+  background: #e3e3e3;
+  height: 1px;
+  margin: 16px 0 0 0;
+}
+/* line 96, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content .more-link,
+#primary-wrapper #primary #main .post .post-content .more-link,
+#primary-wrapper #primary #main .single-post .post-content .more-link {
+  text-align: center;
+  display: block;
+  font-weight: 600;
+}
+/* line 104, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content p,
+#primary-wrapper #primary #main .post .post-content p,
+#primary-wrapper #primary #main .single-post .post-content p {
+  margin-bottom: 20px;
+}
+/* line 108, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content p img,
+#primary-wrapper #primary #main .post .post-content p img,
+#primary-wrapper #primary #main .single-post .post-content p img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 119, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content .post-password-form label,
+#primary-wrapper #primary #main .post .post-content .post-password-form label,
+#primary-wrapper #primary #main .single-post .post-content .post-password-form label {
+  display: inline;
+}
+/* line 125, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content .post-password-form p input[name="post_password"],
+#primary-wrapper #primary #main .post .post-content .post-password-form p input[name="post_password"],
+#primary-wrapper #primary #main .single-post .post-content .post-password-form p input[name="post_password"] {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-bottom-right-radius: 0;
+  -webkit-bottom-right-radius: 0;
+  border-right: 0;
+  width: 90%;
+  display: inline;
+  margin-right: -2px;
+}
+/* line 137, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-content .post-password-form p .btn,
+#primary-wrapper #primary #main .post .post-content .post-password-form p .btn,
+#primary-wrapper #primary #main .single-post .post-content .post-password-form p .btn {
+  border-top-left-radius: 0;
+  -moz-border-top-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+}
+/* line 150, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-pagination,
+#primary-wrapper #primary #main .post .post-pagination,
+#primary-wrapper #primary #main .single-post .post-pagination {
+  background: #fcfcfc;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+  margin: 20px 0 20px 0;
+  font-size: 17px;
+}
+/* line 159, ../sass/content.scss */
+#primary-wrapper #primary #main .page .post-pagination p,
+#primary-wrapper #primary #main .post .post-pagination p,
+#primary-wrapper #primary #main .single-post .post-pagination p {
+  margin: 0;
+}
 
 /* Pagination
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* line 9, ../sass/pagination.scss */
 #pagination {
-  padding: 0; }
-  #pagination .pager {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 18px; }
-    #pagination .pager li a {
-      border: 0;
-      color: #2e3138; }
-    #pagination .pager .previous > a {
-      padding-left: 0; }
-    #pagination .pager .next > a {
-      padding-right: 0; }
-    #pagination .pager .archive-next > a {
-      padding-right: 20px; }
-    #pagination .pager .previous a:hover,
-    #pagination .pager .next a:hover {
-      color: #b5b5b5; }
+  padding: 0;
+}
+/* line 13, ../sass/pagination.scss */
+#pagination .pager {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+/* line 21, ../sass/pagination.scss */
+#pagination .pager li a {
+  border: 0;
+  color: #2e3138;
+}
+/* line 32, ../sass/pagination.scss */
+#pagination .pager .previous > a {
+  padding-left: 0;
+}
+/* line 40, ../sass/pagination.scss */
+#pagination .pager .next > a {
+  padding-right: 0;
+}
+/* line 48, ../sass/pagination.scss */
+#pagination .pager .archive-next > a {
+  padding-right: 20px;
+}
+/* line 57, ../sass/pagination.scss */
+#pagination .pager .previous a:hover,
+#pagination .pager .next a:hover {
+  color: #b5b5b5;
+}
 
 /* Comments
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+/* line 12, ../sass/comments.scss */
 #no-responses p {
   font-size: 17px;
   background: #fcfcfc;
   padding: 10px 20px 10px 20px;
   border-radius: 4px;
   border: 1px solid #e3e3e3;
-  margin: 20px 0 20px 0; }
+  margin: 20px 0 20px 0;
+}
 
+/* line 25, ../sass/comments.scss */
 #comments {
   margin-top: 40px;
-  padding-bottom: 0; }
-  #comments .response-list .pingback {
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    background: #fcfcfc;
-    padding: 10px 20px 10px 20px;
-    border: 1px solid #e3e3e3;
-    margin: 20px 0 20px 0; }
-  #comments .response-list .comment {
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    background: #fcfcfc;
-    padding: 10px 20px 10px 20px;
-    border: 1px solid #e3e3e3;
-    margin: 20px 0 20px 0; }
-    #comments .response-list .comment.bypostauthor {
-      border-left: 1px solid #626469; }
-  #comments .response-list .response-body .vcard {
-    min-height: 100px; }
-  #comments .response-list .response-body .avatar {
-    float: left; }
-    #comments .response-list .response-body .avatar img {
-      padding: 8px;
-      border: 1px solid #e3e3e3;
-      margin-right: 10px; }
-  #comments .response-list .response-body .response-meta-wrapper {
-    margin-top: 18px;
-    font-size: 18px; }
-    #comments .response-list .response-body .response-meta-wrapper .response-meta .fn {
-      font-style: normal; }
-    #comments .response-list .response-body .response-meta-wrapper .response-meta .response-date {
-      display: block; }
-  #comments .response-list .response-text {
-    margin: 18px 0 18px 0;
-    font-size: 17px;
-    line-height: 32px;
-    text-align: justify; }
-    #comments .response-list .response-text p, #comments .response-list .response-text pre, #comments .response-list .response-text ul, #comments .response-list .response-text address {
-      max-width: 700px; }
-    #comments .response-list .response-text code {
-      overflow-x: scroll;
-      display: block; }
-  #comments .response-list .reply {
-    font-size: 17px; }
-  #comments #comment-pagination {
-    padding: 0; }
-    #comments #comment-pagination .pager {
-      margin-bottom: 20px;
-      margin-top: 20px;
-      font-size: 18px; }
-      #comments #comment-pagination .pager li a {
-        border: 0;
-        margin: 0;
-        padding: 0;
-        color: #2e3138; }
-      #comments #comment-pagination .pager .previous a:hover,
-      #comments #comment-pagination .pager .next a:hover {
-        color: #b5b5b5; }
+  padding-bottom: 0;
+}
+/* line 32, ../sass/comments.scss */
+#comments .response-list .pingback {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  background: #fcfcfc;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #e3e3e3;
+  margin: 20px 0 20px 0;
+}
+/* line 43, ../sass/comments.scss */
+#comments .response-list .comment {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  background: #fcfcfc;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #e3e3e3;
+  margin: 20px 0 20px 0;
+}
+/* line 52, ../sass/comments.scss */
+#comments .response-list .comment.bypostauthor {
+  border-left: 1px solid #626469;
+}
+/* line 60, ../sass/comments.scss */
+#comments .response-list .response-body .vcard {
+  min-height: 100px;
+}
+/* line 64, ../sass/comments.scss */
+#comments .response-list .response-body .avatar {
+  float: left;
+}
+/* line 68, ../sass/comments.scss */
+#comments .response-list .response-body .avatar img {
+  padding: 8px;
+  border: 1px solid #e3e3e3;
+  margin-right: 10px;
+}
+/* line 78, ../sass/comments.scss */
+#comments .response-list .response-body .response-meta-wrapper {
+  margin-top: 18px;
+  font-size: 18px;
+}
+/* line 85, ../sass/comments.scss */
+#comments .response-list .response-body .response-meta-wrapper .response-meta .fn {
+  font-style: normal;
+}
+/* line 91, ../sass/comments.scss */
+#comments .response-list .response-body .response-meta-wrapper .response-meta .response-date {
+  display: block;
+}
+/* line 101, ../sass/comments.scss */
+#comments .response-list .response-text {
+  margin: 18px 0 18px 0;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: justify;
+}
+/* line 108, ../sass/comments.scss */
+#comments .response-list .response-text p, #comments .response-list .response-text pre, #comments .response-list .response-text ul, #comments .response-list .response-text address {
+  max-width: 700px;
+}
+/* line 112, ../sass/comments.scss */
+#comments .response-list .response-text code {
+  overflow-x: scroll;
+  display: block;
+}
+/* line 122, ../sass/comments.scss */
+#comments .response-list .reply {
+  font-size: 17px;
+}
+/* line 128, ../sass/comments.scss */
+#comments #comment-pagination {
+  padding: 0;
+}
+/* line 132, ../sass/comments.scss */
+#comments #comment-pagination .pager {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+/* line 140, ../sass/comments.scss */
+#comments #comment-pagination .pager li a {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: #2e3138;
+}
+/* line 155, ../sass/comments.scss */
+#comments #comment-pagination .pager .previous a:hover,
+#comments #comment-pagination .pager .next a:hover {
+  color: #b5b5b5;
+}
 
+/* line 167, ../sass/comments.scss */
 #respond {
   margin: 20px 0 20px 0;
   clear: both;
-  max-width: 740px; }
-  #respond #commentform .comment-notes {
-    font-size: 16px; }
-  #respond #commentform label {
-    font-size: 18px; }
-  #respond #commentform .logged-in-as {
-    font-size: 16px; }
-  #respond #commentform .form-required-fields {
-    font-size: 16px; }
-  #respond #commentform #comment {
-    font-size: 17px;
-    line-height: 32px; }
-  #respond #commentform .form-allowed-tags {
-    font-size: 16px;
-    margin-top: 10px; }
-  #respond #commentform pre {
-    word-break: break-word;
-    font-size: 14px; }
-  #respond #commentform .form-submit #submit {
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    background: #e3e3e3;
-    color: #000000;
-    border: 1px solid #b5b5b5;
-    font-size: 18px;
-    margin-top: 10px;
-    padding: 10px; }
-    #respond #commentform .form-submit #submit:hover {
-      color: #050505;
-      background: #fcfcfc; }
-  #respond small #cancel-comment-reply-link {
-    display: block;
-    letter-spacing: 0px;
-    padding: 10px 0 0 0;
-    font-size: 16px; }
+  max-width: 740px;
+}
+/* line 175, ../sass/comments.scss */
+#respond #commentform .comment-notes {
+  font-size: 16px;
+}
+/* line 179, ../sass/comments.scss */
+#respond #commentform label {
+  font-size: 18px;
+}
+/* line 183, ../sass/comments.scss */
+#respond #commentform .logged-in-as {
+  font-size: 16px;
+}
+/* line 187, ../sass/comments.scss */
+#respond #commentform .form-required-fields {
+  font-size: 16px;
+}
+/* line 191, ../sass/comments.scss */
+#respond #commentform #comment {
+  font-size: 17px;
+  line-height: 32px;
+}
+/* line 198, ../sass/comments.scss */
+#respond #commentform .form-allowed-tags {
+  font-size: 16px;
+  margin-top: 10px;
+}
+/* line 205, ../sass/comments.scss */
+#respond #commentform pre {
+  word-break: break-word;
+  font-size: 14px;
+}
+/* line 214, ../sass/comments.scss */
+#respond #commentform .form-submit #submit {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  background: #e3e3e3;
+  color: #000000;
+  border: 1px solid #b5b5b5;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 10px;
+}
+/* line 224, ../sass/comments.scss */
+#respond #commentform .form-submit #submit:hover {
+  color: #050505;
+  background: #fcfcfc;
+}
+/* line 239, ../sass/comments.scss */
+#respond small #cancel-comment-reply-link {
+  display: block;
+  letter-spacing: 0px;
+  padding: 10px 0 0 0;
+  font-size: 16px;
+}
 
 /* Sidebar
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+/* Select Bootstrap classes to style WordPress widgets.
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* line 11, ../sass/sidebar.scss */
 #sidebar {
   background: #eeeeee;
   padding-top: 20px;
@@ -659,89 +1021,135 @@ tr.odd {
    *====================================*/
   /*
    * Text Widgets
-   *====================================*/ }
-  #sidebar ul {
-    font-size: 16px;
-    padding-left: 16px; }
-  #sidebar select {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.428571429;
-    color: #555555;
-    vertical-align: middle;
-    background-color: #ffffff;
-    background-image: none;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; }
-  #sidebar .widget {
-    margin: 0 0 20px 0;
-    display: block;
-    float: left;
-    width: 100%; }
-  #sidebar .widget_search {
-    margin: 0; }
-  #sidebar .widget_recent_comments #recentcomments .recentcomments a {
-    word-break: break-word; }
-  #sidebar .widget-title .rsswidget img {
-    display: none; }
-  #sidebar .tagcloud {
-    text-transform: uppercase;
-    text-align: justify; }
-  #sidebar .widget_calendar #calendar_wrap #wp-calendar {
-    width: 100%; }
-    #sidebar .widget_calendar #calendar_wrap #wp-calendar caption {
-      text-transform: uppercase;
-      font-size: 16px;
-      margin: 10px 0 10px 0; }
-    #sidebar .widget_calendar #calendar_wrap #wp-calendar tr th,
-    #sidebar .widget_calendar #calendar_wrap #wp-calendar tr td {
-      text-align: center; }
-  #sidebar .widget_recent_entries ul li span {
-    display: block;
-    color: #b5b5b5; }
-  #sidebar .textwidget {
-    font-size: 16px; }
+   *====================================*/
+}
+/* line 20, ../sass/sidebar.scss */
+#sidebar ul {
+  font-size: 16px;
+  padding-left: 16px;
+}
+/* line 27, ../sass/sidebar.scss */
+#sidebar select {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+/* line 31, ../sass/sidebar.scss */
+#sidebar .widget {
+  margin: 0 0 20px 0;
+  display: block;
+  float: left;
+  width: 100%;
+}
+/* line 44, ../sass/sidebar.scss */
+#sidebar .widget_search {
+  margin: 0;
+}
+/* line 58, ../sass/sidebar.scss */
+#sidebar .widget_recent_comments #recentcomments .recentcomments a {
+  word-break: break-word;
+}
+/* line 76, ../sass/sidebar.scss */
+#sidebar .widget-title .rsswidget img {
+  display: none;
+}
+/* line 88, ../sass/sidebar.scss */
+#sidebar .tagcloud {
+  text-transform: uppercase;
+  text-align: justify;
+}
+/* line 103, ../sass/sidebar.scss */
+#sidebar .widget_calendar #calendar_wrap #wp-calendar {
+  width: 100%;
+}
+/* line 107, ../sass/sidebar.scss */
+#sidebar .widget_calendar #calendar_wrap #wp-calendar caption {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+}
+/* line 115, ../sass/sidebar.scss */
+#sidebar .widget_calendar #calendar_wrap #wp-calendar tr th,
+#sidebar .widget_calendar #calendar_wrap #wp-calendar tr td {
+  text-align: center;
+}
+/* line 136, ../sass/sidebar.scss */
+#sidebar .widget_recent_entries ul li span {
+  display: block;
+  color: #b5b5b5;
+}
+/* line 153, ../sass/sidebar.scss */
+#sidebar .textwidget {
+  font-size: 16px;
+}
 
 /* Footer
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* line 9, ../sass/footer.scss */
 #footer-wrapper {
   background: #fcfcfc;
   border-top: 1px solid #e3e3e3;
-  height: 70px; }
-  #footer-wrapper .row #mayer-back-to-top {
-    font-size: 18px;
-    font-family: 'Nunito', Sans-serif;
-    font-weight: 300;
-    margin: 10px 15px 0 15px;
-    text-align: center; }
-    #footer-wrapper .row #mayer-back-to-top a {
-      color: #333333; }
-      #footer-wrapper .row #mayer-back-to-top a:hover {
-        color: #b5b5b5; }
+  height: 70px;
+}
+/* line 17, ../sass/footer.scss */
+#footer-wrapper .row #mayer-back-to-top {
+  font-size: 18px;
+  font-family: 'Nunito', Sans-serif;
+  font-weight: 300;
+  margin: 10px 15px 0 15px;
+  text-align: center;
+}
+/* line 25, ../sass/footer.scss */
+#footer-wrapper .row #mayer-back-to-top a {
+  color: #333333;
+}
+/* line 29, ../sass/footer.scss */
+#footer-wrapper .row #mayer-back-to-top a:hover {
+  color: #b5b5b5;
+}
 
+/* line 41, ../sass/footer.scss */
 #credit {
-  background: #80949c;
+  background: #337A96;
   color: #e3e3e3;
-  text-align: center; }
-  #credit .container .row div a {
-    color: #fcfcfc; }
-    #credit .container .row div a:hover {
-      color: #b5b5b5; }
-  #credit .container .row div p {
-    color: #fcfcfc;
-    font-size: 16px;
-    padding: 40px 0 20px 0;
-    text-align: center; }
+  text-align: center;
+}
+/* line 53, ../sass/footer.scss */
+#credit .container .row div a {
+  color: #fcfcfc;
+}
+/* line 57, ../sass/footer.scss */
+#credit .container .row div a:hover {
+  color: #b5b5b5;
+}
+/* line 63, ../sass/footer.scss */
+#credit .container .row div p {
+  color: #fcfcfc;
+  font-size: 16px;
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
 
 /* JetPack
  *
@@ -749,206 +1157,335 @@ tr.odd {
  * @since      1.0.0
  *====================================*/
 /* Note this style is marked as !important specifically for WordPress.com */
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+/* line 12, ../sass/jetpack.scss */
 #commentform {
-  background: #fff !important; }
+  background: #fff !important;
+}
 
+/* line 18, ../sass/jetpack.scss */
 #subscribe-submit input[type="submit"] {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   background: #ebebeb;
   border: 1px solid #adadad;
-  color: #333; }
-  #subscribe-submit input[type="submit"]:hover {
-    background: #fff; }
+  color: #333;
+}
+/* line 26, ../sass/jetpack.scss */
+#subscribe-submit input[type="submit"]:hover {
+  background: #fff;
+}
 
+/* line 34, ../sass/jetpack.scss */
 #comment-form-subscribe {
   width: 100%;
-  display: block; }
+  display: block;
+}
 
+/* line 41, ../sass/jetpack.scss */
 .subscribe-label {
   font-weight: normal;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
+/* line 48, ../sass/jetpack.scss */
 .form-allowed-tags {
   clear: both;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
+/* line 56, ../sass/jetpack.scss */
 .sharedaddy .sd-title {
   /* Note these styles iare marked as !important specifically for WordPress.com */
   display: block !important;
   letter-spacing: -1px  !important;
   font-size: 20px  !important;
-  margin-top: 0     !important; }
+  margin-top: 0     !important;
+}
 
+/* line 62, ../sass/jetpack.scss */
 #jp-relatedposts h3 {
   /* Note these styles iare marked as !important specifically for WordPress.com */
   display: block !important;
   letter-spacing: -1px  !important;
   font-size: 20px  !important;
-  margin-top: 0     !important; }
+  margin-top: 0     !important;
+}
 
+/* line 71, ../sass/jetpack.scss */
 div.sharedaddy.sd-like-enabled .sd-like .post-likes-widget {
-  position: relative !important; }
+  position: relative !important;
+}
 
+/* line 85, ../sass/jetpack.scss */
 .sharedaddy .sd-content .post-content a {
   font-size: 16px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 98, ../sass/jetpack.scss */
 h3.jp-relatedposts-headline {
-  width: 100%; }
+  width: 100%;
+}
 
 /* Media Queries
  *
  * @package    Mayer/css
  * @since      1.0.0
  *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
 /* Large Devices Desktops (≥1200px) */
 @media (min-width: 1200px) {
+  /* line 12, ../sass/media-queries.scss */
   #sidebar {
     padding-left: 25px;
-    padding-right: 25px; } }
+    padding-right: 25px;
+  }
+}
 /* Medium Devices Desktops (≥992px) */
 @media (min-width: 992px) and (max-width: 1200px) {
+  /* line 24, ../sass/media-queries.scss */
   .more-link-wrapper {
-    padding-bottom: 0; } }
+    padding-bottom: 0;
+  }
+}
 /* Small Devices Tablets (≥768px) */
 @media (min-width: 768px) and (max-width: 992px) {
+  /* line 37, ../sass/media-queries.scss */
   #masthead #title #site-title {
-    text-align: center; }
-  #masthead #description #site-description {
-    text-align: center; }
+    text-align: center;
+  }
+  /* line 45, ../sass/media-queries.scss */
+  #masthead #description p#site-description {
+    text-align: center;
+  }
 
+  /* line 55, ../sass/media-queries.scss */
   #primary-wrapper #primary {
-    padding: 3px; }
+    padding: 3px;
+  }
 
+  /* line 61, ../sass/media-queries.scss */
   .more-link-wrapper {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+  }
 
+  /* line 65, ../sass/media-queries.scss */
   #sidebar {
-    background: #ffffff; }
+    background: #ffffff;
+  }
 
+  /* line 69, ../sass/media-queries.scss */
   #pagination {
-    border-bottom: 1px dotted #e3e3e3; } }
+    border-bottom: 1px dotted #e3e3e3;
+  }
+}
 /* Extra Small Devices Phones (<768px) */
 @media (max-width: 768px) {
+  /* line 78, ../sass/media-queries.scss */
   #masthead {
-    min-height: 100px; }
+    min-height: 100px;
+  }
 
+  /* line 88, ../sass/media-queries.scss */
   #primary-wrapper #primary #main .post {
-    padding-bottom: 10px; }
-    #primary-wrapper #primary #main .post .post-content {
-      text-align: left; }
-      #primary-wrapper #primary #main .post .post-content h2, #primary-wrapper #primary #main .post .post-content h3, #primary-wrapper #primary #main .post .post-content h4, #primary-wrapper #primary #main .post .post-content h5, #primary-wrapper #primary #main .post .post-content h6 {
-        text-align: left; }
-      #primary-wrapper #primary #main .post .post-content p {
-        text-align: left; }
-      #primary-wrapper #primary #main .post .post-content .wp-caption-text {
-        text-align: center; }
+    padding-bottom: 10px;
+  }
+  /* line 92, ../sass/media-queries.scss */
+  #primary-wrapper #primary #main .post .post-content {
+    text-align: left;
+  }
+  /* line 96, ../sass/media-queries.scss */
+  #primary-wrapper #primary #main .post .post-content h2, #primary-wrapper #primary #main .post .post-content h3, #primary-wrapper #primary #main .post .post-content h4, #primary-wrapper #primary #main .post .post-content h5, #primary-wrapper #primary #main .post .post-content h6 {
+    text-align: left;
+  }
+  /* line 100, ../sass/media-queries.scss */
+  #primary-wrapper #primary #main .post .post-content p {
+    text-align: left;
+  }
+  /* line 104, ../sass/media-queries.scss */
+  #primary-wrapper #primary #main .post .post-content .wp-caption-text {
+    text-align: center;
+  }
 
+  /* line 118, ../sass/media-queries.scss */
   .navbar-toggle,
   .navbar-toggle.collapsed {
-    background: #ffffff; }
-    .navbar-toggle span,
-    .navbar-toggle.collapsed span {
-      background-color: #000000; }
+    background: #ffffff;
+  }
+  /* line 123, ../sass/media-queries.scss */
+  .navbar-toggle span,
+  .navbar-toggle.collapsed span {
+    background-color: #000000;
+  }
 
+  /* line 129, ../sass/media-queries.scss */
   nav.collapsing,
   nav.in {
-    overflow-y: visible !important; }
-    nav.collapsing ul,
-    nav.in ul {
-      z-index: 0;
-      margin: 0;
-      padding: 0;
-      height: auto; }
-      nav.collapsing ul li,
-      nav.in ul li {
-        display: block;
-        width: 100%; }
-      nav.collapsing ul .menu-item-has-children .dropdown-menu,
-      nav.in ul .menu-item-has-children .dropdown-menu {
-        display: block;
-        border: none;
-        box-shadow: none;
-        width: 100%;
-        position: relative; }
+    overflow-y: visible !important;
+  }
+  /* line 134, ../sass/media-queries.scss */
+  nav.collapsing ul,
+  nav.in ul {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  /* line 141, ../sass/media-queries.scss */
+  nav.collapsing ul li,
+  nav.in ul li {
+    display: block;
+    width: 100%;
+  }
+  /* line 150, ../sass/media-queries.scss */
+  nav.collapsing ul .menu-item-has-children .dropdown-menu,
+  nav.in ul .menu-item-has-children .dropdown-menu {
+    display: block;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    position: relative;
+  }
 
+  /* line 171, ../sass/media-queries.scss */
   .navigation .nav .current-menu-parent {
-    background: transparent; }
-    .navigation .nav .current-menu-parent:hover {
-      background: transparent; }
+    background: transparent;
+  }
+  /* line 175, ../sass/media-queries.scss */
+  .navigation .nav .current-menu-parent:hover {
+    background: transparent;
+  }
+  /* line 185, ../sass/media-queries.scss */
   .navigation .nav .open > a {
-    background: transparent; }
+    background: transparent;
+  }
+  /* line 193, ../sass/media-queries.scss */
   .navigation .nav li:hover {
-    background: transparent; }
+    background: transparent;
+  }
 
+  /* line 203, ../sass/media-queries.scss */
   .more-link-wrapper {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+  }
 
+  /* line 211, ../sass/media-queries.scss */
   #masthead #title #site-title {
-    text-align: center; }
+    text-align: center;
+  }
+  /* line 219, ../sass/media-queries.scss */
   #masthead #description #site-description {
-    display: none; }
+    display: none;
+  }
 
+  /* line 227, ../sass/media-queries.scss */
   #sidebar {
-    background: #ffffff; }
+    background: #ffffff;
+  }
 
+  /* line 231, ../sass/media-queries.scss */
   .aligncenter,
   .aligncenter > img {
     max-width: 100%;
-    height: auto; }
+    height: auto;
+  }
 
+  /* line 239, ../sass/media-queries.scss */
   .alignright {
     float: none;
     max-width: 100%;
-    margin: 0; }
-    .alignright .size-full {
-      max-width: 100% !important;
-      height: auto !important; }
+    margin: 0;
+  }
+  /* line 245, ../sass/media-queries.scss */
+  .alignright .size-full {
+    max-width: 100% !important;
+    height: auto !important;
+  }
 
+  /* line 264, ../sass/media-queries.scss */
   #primary-wrapper #primary #main .page .post-content,
   #primary-wrapper #primary #main .post .post-content,
   #primary-wrapper #primary #main .single-post .post-content {
-    line-height: 25px; }
+    line-height: 25px;
+  }
 
+  /* line 278, ../sass/media-queries.scss */
   .response-text p {
-    text-align: left; }
+    text-align: left;
+  }
 
+  /* line 284, ../sass/media-queries.scss */
   #pagination {
-    border-bottom: 1px dotted #e3e3e3; }
-    #pagination .pager li a {
-      width: 100%;
-      text-align: center; } }
+    border-bottom: 1px dotted #e3e3e3;
+  }
+  /* line 292, ../sass/media-queries.scss */
+  #pagination .pager li a {
+    width: 100%;
+    text-align: center;
+  }
+}
 @media (max-width: 640px) {
+  /* line 313, ../sass/media-queries.scss */
   #masthead #title #site-title {
-    font-size: 40px; }
+    font-size: 40px;
+  }
+  /* line 321, ../sass/media-queries.scss */
   #masthead #description #site-description {
-    font-size: 40px; }
+    font-size: 40px;
+  }
 
+  /* line 331, ../sass/media-queries.scss */
   #primary-wrapper #primary {
-    padding: 3px; }
+    padding: 3px;
+  }
 
+  /* line 337, ../sass/media-queries.scss */
   .gallery-item {
     float: left;
     clear: both;
     display: block;
-    width: 100% !important; } }
+    width: 100% !important;
+  }
+}
 /* Web Font Styles for fixing Google Chrome
  * web font rendering.
  *
  * @package    Mayer/css
  * @since      1.4.0
  *====================================*/
+/* line 8, ../sass/web-fonts.scss */
 body {
   -webkit-animation-duration: 0.1s;
   -webkit-animation-name: fontfix;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 0.1s; }
+  -webkit-animation-delay: 0.1s;
+}
 
 @-webkit-keyframes fontfix {
   from {
-    opacity: 1; }
+    opacity: 1;
+  }
   to {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
